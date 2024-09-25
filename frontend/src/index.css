@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  min-width: 0;
+}
+.navbar {
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #fff;
+  display:flex;
+  align-items: center;
+  max-width:100vw;
+  margin: 0 auto;
+  border-bottom: 1px solid #AAA;
+  position: sticky;
+  top:0px;
+}
+.navbar img {
+  padding: 10px 30px 10px 0px;
+  cursor:pointer;
+}
+
+.navbar input {
+  padding:5px 0px 5px 10px;
+  margin-left:250px;
+  height:25px;
+  border-radius:20px;
+  width:500px;
+  max-width:500px;
+  border-style: solid;
+  border-color:#999;
+
+}
+.navbar h1 {
+  color: #050;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  text-decoration: none;
+  padding-left:40px;
+
+}
+.navbar a:hover {
+  color:#050;
+}
+.content {
+  max-width:60vw;
+  margin: 40px auto;
+  padding: 20px;
+}
+.project-list h1 {
+  text-align: center; 
+
+}
+.project-preview img {
+  padding-bottom: 10px;
+}
+.project-preview {
+  background-color: #EEE;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #555;
+  word-wrap: break-word; 
+  overflow:scroll;
+  margin:20px;
+}
+
+.project-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.project-preview h2, .project-previewp, .project-preview img {
+  margin: 20px 0px  0px 200px;
+
+}
+.project-preview h2 {
+  margin-left: 100px;
+  font-size: 2rem;
+  color: #050;
+  margin-bottom:8px;
+}
+.project-preview p {
+  margin-left: 100px;
+  font-size: 20px;
+
+}
+.project-preview button {
+  margin-top:10px;
+}
+a{
+  text-decoration: none ;
+}
+.project-details {
+  justify-content: center;
+}
+
+.project-details h2, .project-details p, .project-details div, .project-details iframe{
+  display: flex;
+  justify-content: center;
+}
+.project-details iframe {
+  display: block;
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project-details div{
+  font-size: 20px;
+max-width: 500px;
+margin:auto;
+}
+
+.project-details h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.project-details p {
+  margin-bottom: 20px;
+}
+
+.create h2, .create #create-loading{
+  display:flex;
+  justify-content: center;
+}
+.create input, .create label, .create text, .create textarea {
+  width:100%;
+  display:flex;
+  padding: 10px 0px
+}
+.create input{
+  height:10px;
+}
+.create #select-Img {
+  padding:0px 0px 10px 0px;
+}
+.create textarea{
+  height:100px;
+}
+.create #description-label{
+  height:10px;
+}
+.create button {
+  background: #050;
+  color:white;
+  margin:10px auto;
+  cursor:pointer;
+  display:block;
+  font-size: 15px;
+}
+.not-found {
+  display: block;
+  text-align: left;
+}
+.not-found p{
+  margin: 10px 0px 10px 0px;
+}
+#main-title:hover {
+  color:#010;
+}
+
+@media screen and (max-width: 1207px) {
+  .navbar form {
+    display: none;
+  }
+  
+}
+
+.login,.signup{
+  max-width:50%;
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+  margin-top:100px;
+  background-color: #eee;
+  padding:10px;
+}
+.login h3,.signup h3  {
+  text-align:center
+}
+.login label,.signup label{
+  padding-top:20px;
+}
+.login input,.signup input{
+  margin-top:10px;
+  padding:10px;
+  border-radius:50px;
+  border-style: solid;
+  max-width: 50%;
+  border-color:#aaa;
+  background-color: #eee;
+}
+.login button,.signup button{
+  border-radius:50px;
+  margin-top:20px;
+  width:25%;
+  background-color: #050;
+  color:#fff;
+}
+.error {
+  margin-top:20px;
+  padding:6px;
+  background-color: #e55;
+  width:50%;
+  border-style: solid;
+  border-width: 2px;
+  color: #a22;
+  border-radius:50px;
+
+  border-color: #a22;
+
+}
+.signUpSuccess,.loginSuccess {
+  margin-top:20px;
+  padding:6px;
+  background-color: #5a5;
+  width:50%;
+  border-style: solid;
+  border-width: 2px;
+  color: #050;
+  border-radius:50px;
+
+  border-color: #050;
+
+}
+.profile-dropdown{
+  display: none;
+  float:right;
+  width:fit-content;
+  background-color: #f1f1f1;
+  flex-direction: column;
+  justify-content: end;
+  padding:20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.logged-out,.logged-in{
+  display:flex;
+  flex-direction: column;
+}
+.logged-in button {
+  border:none;
+  padding:10px;
+  font-size:15px;
+}
+.show {
+  display: grid;
+}
+.profile-dropdown a {
+  padding:10px;
+}
+.profile-dropdown a:hover {
+  color:#050;
+}
+.navbar button {
+  cursor:pointer;
+  padding-left: 30px;
+  border:none;
+  background-color: #fff;
+}
+.navbar img{
+  pointer-events: none;
+  cursor: default;
+}
+.Error {
+  display:none;
+}
+@media only screen and (max-width: 900px) {
+  .Error{
+    display: block;
+  }
+  .App {
+    display: none;
+  }
+}

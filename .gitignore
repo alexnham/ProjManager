@@ -1,0 +1,41 @@
+# Backend
+/backend/node_modules/
+/backend/npm-debug.log
+/backend/yarn-debug.log
+/backend/yarn-error.log
+/backend/package-lock.json
+/backend/yarn.lock
+/backend/dist/
+/backend/build/
+/backend/.env
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+/backend/coverage/
+/backend/*.log
+/backend/*.tgz
+/backend/*.gz
+/backend/.DS_Store
+/backend/.vscode/
+/backend/.idea/
+/backend/*.sublime-workspace
+/backend/*.sublime-project
+
+# Frontend
+/frontend/build/
+/frontend/public/static/
+/frontend/*.css.map
+/frontend/*.js.map
+/frontend/*.ts.map
+/frontend/*.tsx.map
+/frontend/src/**/*.test.js
+/frontend/src/**/*.test.tsx
+/frontend/src/setupTests.js
+/frontend/src/serviceWorker.js
+/frontend/src/reportWebVitals.js
+
+# Miscellaneous
+/.cache
+/.next
+/out/
